@@ -24,10 +24,8 @@ const incentives = [
 export default function Features() {
         return (
             <div>
-                <div className="relative">
-      <div className="absolute background-gradient2"><div className="absolute bggr2"></div></div>
-          <div className="text-3xl font-medium tracking-tight mx-auto mt-12 ">Notizen für Lisas Facharztprüfung</div></div>
-      <div className="mx-auto py-12 sm:py-12">
+                    <h2 className="text-2xl text-gray-700 mt-8">Schnellzugriff</h2>
+      <div className="mx-auto pt-4 pb-12 sm:pb-12 sm:pt-4">
         <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 lg:gap-x-8">
           {incentives.map((incentive) => (
             <div className="z-10 bg-white hover:shadow-md hover:shadow-lg hover:transition shadow-lg rounded-xl p-6 border border-gray-200" key={incentive.name}>
