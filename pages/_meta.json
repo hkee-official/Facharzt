@@ -1,7 +1,11 @@
 {
-  "index": "Introduction",
-  "another": "Another Page",
-  "advanced": "Advanced (A Folder)",
+  "index": { 
+    "title": "Startseite",
+    "theme": {
+      "layout": "full",
+      "pagination": false
+    }
+  },
   "about": {
     "title": "About",
     "type": "page"
