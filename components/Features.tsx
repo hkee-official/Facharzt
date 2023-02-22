@@ -28,7 +28,7 @@ export default function Features() {
       <div className="mx-auto pt-4 pb-12 sm:pb-12 sm:pt-4">
         <div className="grid grid-cols-1 gap-y-12 sm:grid-cols-2 sm:gap-x-6 lg:grid-cols-4 lg:gap-x-8">
           {incentives.map((incentive) => (
-            <div className="z-10 bg-white hover:shadow-md hover:shadow-lg hover:transition shadow-lg rounded-xl p-6 border border-gray-200" key={incentive.name}>
+            <div className="z-10 bg-white hover:shadow-md hover:transition shadow-lg rounded-xl p-6 border border-gray-200" key={incentive.name}>
               <img src={incentive.imageSrc} alt="" className="z-10 h-24 w-auto" />
               <h3 className="z-10 mt-6 text-sm font-medium text-gray-900">{incentive.name}</h3>
               <p className="z-10 mt-2 text-sm text-gray-500">{incentive.description}</p>

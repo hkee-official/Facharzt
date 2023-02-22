@@ -28,6 +28,9 @@ const config: DocsThemeConfig = {
     toc: {
       title: 'Inhaltsverzeichnis dieser Seite'
     },
+    feedback: {
+      content: ''
+    },
     head: (
       <>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
