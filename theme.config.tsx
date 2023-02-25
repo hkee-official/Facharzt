@@ -17,7 +17,7 @@ const config: DocsThemeConfig = {
     link: 'https://discord.com',
   },
   docsRepositoryBase: 'https://github.com/hkee-official/Facharzt/tree/Lisa/',
-  footer: {
+    footer: {
     text: 'Nextra Docs Template',
   },
   editLink: {
