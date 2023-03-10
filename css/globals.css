@@ -4,9 +4,6 @@
 
 @layer components {
 
-    h1 {
-        font-size:14px!important;
-    }
 .bggr {
     position:absolute;
 
@@ -50,4 +47,11 @@
         background-image: linear-gradient(90deg,rgba(var(--rgb-blue-400),1),rgba(var(--rgb-seafoam-400),1));
         filter: hue-rotate(0deg) invert(1);
     }
+
+}
+.excerpt {
+overflow: hidden;
+display: -webkit-box;
+-webkit-line-clamp: 2;
+-webkit-box-orient: vertical;
 }

@@ -3,7 +3,8 @@
     "title": "Startseite",
     "theme": {
       "layout": "full",
-      "pagination": false
+      "pagination": false,
+      "footer":false
     }
   },
   "about": {
