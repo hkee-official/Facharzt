@@ -15,6 +15,6 @@
     "isolatedModules": true,
     "jsx": "preserve"
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Features.tsx", "components/Features.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", "components/Features.tsx", "components/Features.tsx", "pages/Allergologie/hautausschlag.mdx", "pages/Allergologie/hautausschlag.mdx"],
   "exclude": ["node_modules"]
 }
